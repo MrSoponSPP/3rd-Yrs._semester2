@@ -1,0 +1,11 @@
+xtal = 16 MHz ==> T= 1/16M = 62.5 ns
+count 0 - 255 = 256 / 2 ms
+
+2 ms = 256 times
+x ms = 2/256 = 7.8125 x 10^-3 ms = 7.8125 us / times
+
+7.8125 us / 62.5 ns = 125 ==> round for 7.8125 us / 1 times to count
+256-125 = 131 ==> initial value
+
+no pre-scale ==> 0x01
+

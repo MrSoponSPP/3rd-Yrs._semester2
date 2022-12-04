@@ -1,0 +1,12 @@
+ให้มี delay 1 ms
+ADC Clk 
+xtal 16 MHz ==> Period : T= 1/16M = 62.5 ns
+ADC clk : 16 MHz / 128 = 125 kHz (Code : 111 ,เพื่อไม่ให้เกิน 200 kHz !!)
+
+Timer0 Initial value 
+
+ADC clk : 125 kHz
+
+pre-scale 1024 : Code 101
+125k/1024 = 122 
+initial value = 256-125 = 134 
